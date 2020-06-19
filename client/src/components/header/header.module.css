@@ -1,0 +1,124 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1px;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    height: 80px;
+}
+
+nav {margin-bottom: 55px;}
+
+.header a {
+    margin-top: 60px;
+    font-family: Spartan, medium;
+    font-size: 20px;
+    color: #4a07a9;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition: color 500ms linear, font-size 500ms linear;
+}
+
+.notification {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+
+.header a.active {
+    color: #ee4012;
+    font-size: 25px;
+}
+
+.header a:hover {
+    color: #7a0cff;
+}
+
+.logo_ntf {
+    top: 40px;
+    position: relative;
+    width: 40px;
+}
+
+.count_ntf {
+    position: relative;
+    bottom: 15px;
+    width: 20px;
+    height: 20px;
+    background: #d50c45;
+    border-radius: 30px;
+}
+
+.count_ntf p {
+    padding-top: 5px;
+    font-family: Spartan, medium;
+    font-size: 13px;
+}
+
+.hr {
+    padding-bottom: 5px;
+}
+
+.header .logo {
+    margin-top: 0;
+}
+
+.info {
+    margin-top: 60px;
+    padding-right: 10px;
+    font-family: Spartan, medium;
+    font-size: 15px;
+    color: #d50c45;
+}
+
+.burger {
+    display: none;
+    margin-top: 170px;
+}
+
+.notification {
+    cursor: pointer;
+}
+
+@media (max-width: 750px) {
+    .navburger {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .navburger a {
+        font-family: Spartan, medium;
+        font-size: 20px;
+        margin: 12px;
+        color: white;
+        text-decoration: none;
+        transition: color 500ms linear, font-size 500ms linear;
+    }
+
+    .burger {
+        margin-left: 20px;
+        display: inline;
+    }
+
+    .burger svg {
+        margin-right: 20px;
+    }
+
+    .navlink {
+        display: none;
+    }
+
+    .navburger a.active {
+        color: #ee4012;
+        font-size: 25px;
+    }
+
+    .navburger a:hover {
+        color: #7a0cff;
+    }
+}

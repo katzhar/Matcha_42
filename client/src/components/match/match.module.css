@@ -1,0 +1,147 @@
+.users {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.slider {
+    width: 90%;
+}
+
+.user {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+    background: rgba(203, 186, 255, 0.14);
+    max-width: 500px;
+}
+
+.page {
+    display: flex;
+    flex-direction: row;
+}
+
+.page p {
+    margin: 10px;
+    color: #3b0e7c;
+    transition: font-size 100ms linear;
+    cursor: pointer;
+}
+
+.about b {
+    margin-top: 20px;
+    color: #5f18db;
+    font-size: 20px;
+}
+
+.about p {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.fame {
+    color: #5b4b9a;
+}
+
+.tags {
+    margin-bottom: 10px;
+    color: #d51c48;
+}
+
+.about {
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+
+.report button {
+    background: coral;
+}
+
+.choiceno button {
+    background: #542880;
+}
+
+.choiceyes button {
+    background: #d51c48;
+}
+
+.choiceno, .report, .choiceyes {
+    width: 30%;
+}
+
+.bio {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 60%;
+}
+
+.infobio {
+    overflow: hidden;
+}
+
+.userphoto img {
+    width: 100%;
+    height: auto;
+}
+
+.userphoto {
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.profilephoto {
+    margin: 0;
+    overflow: hidden;
+    width: 46%;
+    height: 300px;
+}
+
+.profilephoto img {
+    width: 100%;
+}
+
+.match {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.selectPage {
+    font-size: 20px;
+}
+
+.matchbtn {
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+}
+
+.matchbtn button {
+    width: 100%;
+    display: block;
+    color: #fffbfd;
+}
+
+.matchbtn button:hover {
+    background: #a24fb4;
+}
+
+@media (max-width: 1000px) {
+    .match {
+        width: 90%;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 638px) {
+    .profilephoto {
+        width: 80%;
+    }
+}

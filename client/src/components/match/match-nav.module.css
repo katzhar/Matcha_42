@@ -1,0 +1,90 @@
+.nav{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav p{
+    margin-top: 20px;
+    color: rgb(129, 36, 255);
+    font-size: 18px;
+}
+
+.sort{
+    background: #cbbaff;
+    border-radius: 5px 5px 0 0;
+}
+
+.sort button{
+    background: rgba(97, 30, 171, 0.8);
+    color: white;
+    float: right;
+}
+
+.range{margin: 20px;}
+
+.tags{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.tags p{font-weight:bold;}
+
+.sort select{
+    font-family: Spartan, medium;
+    font-size: 13px;
+    margin: 5px;
+    width: 63%;
+    height: 26px;
+}
+
+.sort option{
+    height: 26px;
+    font-family: Spartan, medium;
+    width: 60%;
+}
+
+.res{
+    display: block;
+    margin-bottom: 10px;
+    color: #3b0e7c;
+}
+
+.tags input{
+     font-family: Spartan, medium;
+     font-size: 15px;
+     margin: 5px;
+     width: 60%;
+ }
+
+.tags button{
+    height: 26px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(97, 30, 171, 0.8);
+    font-family: Spartan, medium;
+    font-size: 17px;
+    width: 33%;
+    min-width:50px;
+}
+
+.submitfilter input{
+    width: 200px;
+    margin-top: 20px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(97, 30, 171, 0.8);
+    font-family: Spartan, medium;
+    font-size: 17px;
+    width: 95%;
+    min-width:50px;
+}
+
+.submitfilter button{
+    padding: 10px 60px;
+    margin-top: 40px;
+    background: rgba(97, 30, 171, 0.8);
+    color: white;
+}

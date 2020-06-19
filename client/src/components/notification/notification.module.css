@@ -1,0 +1,52 @@
+.modal {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    color: white;
+    background-color: rgba(27, 26, 26, 0.5);
+    z-index: 100;
+}
+
+.modal button {
+    border: none;
+    color: white;
+    background: rgb(77, 101, 209);
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.info p {display: inline;}
+
+.modal a {
+    text-decoration: none;
+    color: red;
+}
+
+.info {margin: 10px;}
+
+.modal2 {
+    position: absolute;
+    top: 89px;
+    right: 0;
+    width: 133px;
+    min-height: 280px;
+    height: 43vh;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: rgba(33, 26, 59, 0.66);
+    z-index: 30;
+}
+
+@media (min-width: 750px) {
+    .modal2 {display: none;}
+}

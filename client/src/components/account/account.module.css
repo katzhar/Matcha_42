@@ -1,0 +1,193 @@
+.accountRight {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pop {
+    overflow: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.fileUpload input[type="file"] {
+    display: none;
+}
+
+.fileUpload:hover {
+    background: #b8a3ff;
+}
+
+.fileUpload {
+    margin-bottom: 10px;
+    position: relative;
+    overflow: hidden;
+    width: 210px;
+    height: 40px;
+    background: #6e46a7;
+    border-radius: 6px;
+    color: #fff;
+    text-align: center;
+}
+
+.fileUpload label {
+    display: block;
+    position: absolute;
+    top: -14px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.file-upload span {
+    line-height: 40px;
+    font-weight: bold;
+}
+
+.pop a {
+    margin-left: 10px;
+}
+
+.tag {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.tag p {
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.formAccountPhoto img {
+    display: block;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    box-shadow: 0 0 0 3px #18d521, 0 0 5px #00ff52;
+}
+
+.photoGallery {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.formAccountPhoto span {
+    display: block;
+}
+
+.help {
+    margin-right: 80px;
+}
+
+.photoGallery img {
+    margin-left: 10px;
+    width: 40%;
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+
+.accountRight button {
+    margin: 10px;
+    padding: 10px 65px;
+    background: #ff1150;
+    color: #fffbfd;
+    border: none;
+    border-radius: 5px;
+}
+
+.accountRight p {
+    margin-top: 10px;
+}
+
+.accountRight .formBtn {
+    padding: 10px 0;
+    margin: 0;
+    width: 100%;
+    max-width: 280px;
+    min-width: 220px;
+
+}
+
+.age {
+    font-size: 14px;
+    font-family: Spartan, medium;
+}
+
+.nameform {
+    display: flex;
+    color: #5d28a2;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.tagsbutton {
+    width: 90px;
+    padding: 10px 21px !important;
+    outline: none;
+}
+
+.tagsbutton:active {
+    background-color: #5d28a2;
+}
+
+.accountRight .radio input {
+    margin-left: 20px;
+    font-size: 14px;
+    font-family: Spartan, medium;
+}
+
+.formAccountPhoto {
+    display: flex;
+    flex-direction: column;
+}
+
+.accountRight textarea {
+    font-size: 14px;
+    font-family: Spartan, medium;
+}
+
+.radio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.radio p {
+    margin-right: 10px;
+}
+
+.location {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    left: -10px;
+    top: -10px;
+    background: red;
+}
+
+.tags {
+    margin-top: 10px;
+}
+
+.tags input :checked {
+    color: red;
+}
+
+.photoGallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+}

@@ -1,0 +1,53 @@
+.wrapper {
+    width: 90%;
+    margin: auto;
+}
+
+.nav {
+    overflow: scroll;
+    margin-top: 30px;
+    width: 50%;
+    height: 500px;
+}
+
+.imgnav {
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 70px;
+    height: 70px;
+    border-radius: 100px; /* Радиус скругления */
+    box-shadow: 0 0 0 3px #18d521, 0 0 5px #00ff52; /* Параметры теней */
+}
+
+.imgnavoff {
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    box-shadow: 0 0 0 3px #7ea9ad, 0 0 5px #b1d7f6;
+}
+
+.imgnavoff {
+    margin-top: 10px;
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    box-shadow: 0 0 0 3px #630bc6, 0 0 5px #a212ff;
+}
+
+.userdiv a {
+    text-decoration: none;
+    color: rgb(68, 7, 140);
+    margin-left: 15px;
+    position: relative;
+    bottom: 25px;
+}
+
+.userdiv {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 950px) {
+    .nav {width: 100%;}
+}

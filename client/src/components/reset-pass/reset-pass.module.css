@@ -1,0 +1,29 @@
+.reset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+    background: rgba(130, 69, 255, 0.3);
+    width: 300px;
+    margin: 5% auto 0 auto;
+    transition: background-color 1s linear;
+}
+
+.reset button {
+    color: #fffbfd;
+    width: 70%;
+    background: #d50c45;
+    border-radius: 3px;
+    margin: 30px auto 30px auto;
+}
+
+.reset form {text-align: center;}
+
+.reset:hover {background-color: rgba(255, 22, 62, 0.34);}
+
+.reset p {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: #3b0e7c;
+}
